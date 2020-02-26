@@ -10,20 +10,6 @@ yarn install
 yarn run serve
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+### keep-alive通过include属性动态匹配缓存组件，beforeRouteEnter组件内路由钩子函数捕获缓存页面需不需要刷新数据
 
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### router.addRoutes方法动态添加路由
